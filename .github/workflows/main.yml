@@ -3,7 +3,7 @@ name: Build, push Docker images to docker Hub and update VPS
 on:
   push:
     branches:
-      - "origin/master"
+      - "master"
 
 jobs:
   build_front:
