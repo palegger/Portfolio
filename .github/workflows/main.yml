@@ -23,6 +23,7 @@ jobs:
           file: Dockerfile
           push: true
           command: docker build --build-arg PUBLIC_WEBHOOK_DISCORD=${{ secrets.PUBLIC_WEBHOOK_DISCORD }} -t ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-front:latest .
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-front:latest
       - name: Connect to VPS and Pull Front image
         uses: appleboy/ssh-action@master
         with:
