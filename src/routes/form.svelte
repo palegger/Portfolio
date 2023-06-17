@@ -15,8 +15,10 @@
     let email = ''
     let message = ''
 
+    const url = 'https://discord.com/api/webhooks/1111301758287884369/dp_kjLSIx4wCL4yxHiv9559AKYvnzgP65V-XQkgmbTfAg-LPG7-IyoVz-zRWYmhTN5nT'
+
     function sendForm() {
-        fetch(PUBLIC_WEBHOOK_DISCORD, {
+        fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
