@@ -20,7 +20,7 @@
             <div class="test">
                 <div class="project">
                     <h3>HealthTech</h3>
-                    <a href="https://github.com/EpitechMscProPromo2023/T-MAJ-800-IOT_8"><img src="skills/github.svg" alt="github"></a>
+                    <a href="https://github.com/palegger/Health-Tech"><img src="skills/github.svg" alt="github"></a>
                     <div class="project-content">
                         <div class="project-img">
                             <img src="projects/healthTech.png" alt="healthtech"/>
@@ -34,7 +34,7 @@
             <div class="test">
                 <div class="project">
                     <h3>The Conveyor</h3>
-                    <a href="https://github.com/EpitechMscProPromo2023/T-MAJ-800-IOT_8"><img src="skills/github.svg" alt="github"></a>
+                    <a href="https://github.com/palegger/The-Conveyor"><img src="skills/github.svg" alt="github"></a>
                     <div class="project-content">
                         <div class="project-img">
                             <img src="projects/theConveyor.png" alt="theConveyor"/>

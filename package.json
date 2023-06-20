@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite dev --host",
     "build": "vite build",
@@ -19,7 +20,6 @@
     "svelte-preprocess": "^5.0.3",
     "vite": "^4.2.0"
   },
-  "type": "module",
   "dependencies": {
     "sass": "^1.62.0",
     "siema": "^1.5.1",
